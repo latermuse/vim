@@ -99,7 +99,8 @@ set statusline=%2*%n\|%<%*%-.40F%2*\|\ %2*%M\ %3*%=%1*\ %1*%2.6l%2*x%1*%1.9(%c%V
 
 au BufEnter *.hs compiler ghc
 
-let g:haddock_browser = "/Applications/Firefox.app/Contents/MacOS/firefox"
+" add OS name here: /Contents/$osname/firefox
+let g:haddock_browser = "/Applications/Firefox.app/Contents/firefox"
 let g:ghc = "/usr/bin/ghc"
 let g:haddock_docdir = "/usr/share/doc/ghc/html/"
 
